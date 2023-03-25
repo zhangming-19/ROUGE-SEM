@@ -1,2 +1,2 @@
 # ROUGE-SEM
-Code will be released in the near future~
+The code for ROUGE-SEM will be released soon.
