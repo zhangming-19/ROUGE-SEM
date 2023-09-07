@@ -5,9 +5,9 @@ M. Zhang, C. Li, M. Wan et al., ROUGE-SEM: Better evaluation of summarization us
 
 **Highlighted Features**
 
-* *1*: A framework of ROUGE combined with semantics is proposed for summarization evaluation.
-* *2*: A classification of Summary based on semantic and lexical similarity to the reference.
-* *3*: Variants of ROUGE-SEM outperform the corresponding variants of ROUGE consistently.
+* A framework of ROUGE combined with semantics is proposed for summarization evaluation.
+* A classification of Summary based on semantic and lexical similarity to the reference.
+* Variants of ROUGE-SEM outperform the corresponding variants of ROUGE consistently.
 
 > Stock movement prediction is a challenging problem: the market is highly *stochastic*, and we make *long-term* predictions from *chaotic* data. We treat these three complexities and present a novel long-term stock movement prediction approach based on research reports. In detail, a new Research Report dataset for Stock Movement Prediction (SMPRR) is proposed. SMPRR is one of the few datasets for long-term stock movement prediction, which is mainly composed of long-form, formal, and professional research reports. We demonstrate the state-of-the-art performance of our proposed model on SMPRR.
 
@@ -17,8 +17,6 @@ M. Zhang, C. Li, M. Wan et al., ROUGE-SEM: Better evaluation of summarization us
 Should you have any query please contact me at [zhangming@hccl.ioa.ac.cn](mailto:zhangming@hccl.ioa.ac.cn).
 
 ## Codes
-
-
 ### Requirements
 We use Conda python 3.7 and strongly recommend that you create a new environment.
 * Prerequisite: Python 3.7 or higher versions
