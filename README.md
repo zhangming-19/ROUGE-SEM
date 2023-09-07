@@ -82,12 +82,12 @@ python candidate_summary_classifier.py -lex_score lexical_similarity.txt -sem_sc
 
 * Categorized Summary Rewriter
 ```python
-python categorized_summary_rewriter.py
+python categorized_summary_rewriter.py -category categorized_summary.txt -c candidate.txt
 ```
 
 * Rewritten Summary Scorer
 ```python
-python rewritten_summary_scorer.py
+python rewritten_summary_scorer.py -r reference.txt -c new_candidate.txt
 ```
 
 ## Citation
