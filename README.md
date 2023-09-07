@@ -1,15 +1,14 @@
 # ROUGE-SEM: Better evaluation of summarization using ROUGE combined with semantics
 
 This project includes the source code for the paper [**ROUGE-SEM: Better evaluation of summarization using ROUGE combined with semantics**](https://www.sciencedirect.com/science/article/pii/S0957417423018663), appearing at Expert Systems with Applications. Please cite this [article](https://www.sciencedirect.com/science/article/pii/S0957417423018663) as follows, if you use this code.
-M. Zhang, C. Li, M. Wan et al., ROUGE-SEM: Better evaluation of summarization using ROUGE combined with semantics. Expert Systems With Applications (2023), doi: https://doi.org/10.1016/j.eswa.2023.121364.
+
+> M. Zhang, C. Li, M. Wan et al., ROUGE-SEM: Better evaluation of summarization using ROUGE combined with semantics. Expert Systems With Applications (2023), doi: https://doi.org/10.1016/j.eswa.2023.121364.
 
 **Highlighted Features**
 
 * A framework of ROUGE combined with semantics is proposed for summarization evaluation.
 * A classification of Summary based on semantic and lexical similarity to the reference.
 * Variants of ROUGE-SEM outperform the corresponding variants of ROUGE consistently.
-
-> Stock movement prediction is a challenging problem: the market is highly *stochastic*, and we make *long-term* predictions from *chaotic* data. We treat these three complexities and present a novel long-term stock movement prediction approach based on research reports. In detail, a new Research Report dataset for Stock Movement Prediction (SMPRR) is proposed. SMPRR is one of the few datasets for long-term stock movement prediction, which is mainly composed of long-form, formal, and professional research reports. We demonstrate the state-of-the-art performance of our proposed model on SMPRR.
 
 <!--You might also be interested in our code for stock movement prediction. We have deposited the code in the Code Ocean platform. The accepted code capsules can be found through https://codeocean.com/capsule/8892872/tree/v1. The DOI of the code is https://doi.org/10.24433/CO.2855516.v1
 -->
