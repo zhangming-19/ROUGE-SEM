@@ -57,34 +57,38 @@ pyrouge_set_rouge_path yourPath/evaluation/ROUGE-RELEASE-1.5.5
 
 ## Example Use Cases
 
-### Evaluate Text Summarization
+### Command-line interface
+```python
+python ROUGE-SEM.py -r reference.txt -c candidate.txt
+```
+
+### Evaluate Text Summarization Step by Step
 Given the source documents, reference summaries and some to-be-evaluated summaries, you can produce the ROUGE-SEM score for these candidate summaries with the code below:
 
 * Calculate Lexical Similarity
-```shell script
-bash ./Step06_combine_dev_FinBert.sh
+```python
+python Calculate_Lexical_Similarity.py -r reference.txt -c candidate.txt
 ```
 
 * Calculate Semantic Similarity
 ```python
-python 
+python Calculate_Semantic_Similarity.py -r reference.txt -c candidate.txt
 ```
 
 * Candidate Summary Classifier
 ```python
-python 
+python Candidate_Summary_Classifier.py
 ```
 
 * Categorized Summary Rewriter
 ```python
-python 
+python Categorized_Summary_Rewriter.py
 ```
 
 * Rewritten Summary Scorer
 ```python
-python 
+python Rewritten_Summary_Scorer.py
 ```
-
 
 ## Citation
 ```
@@ -103,5 +107,5 @@ abstract = {With the development of pre-trained language models and large-scale 
 ```
 
 ## Get Involved
-Please create a GitHub issue if you have any questions, suggestions, requests or bug-reports.
+Please create a GitHub issue if you have any questions, suggestions, requests or bug-reports. 
 Don't hesitate to send us an e-mail or report an issue, if something is broken or if you have further questions.
