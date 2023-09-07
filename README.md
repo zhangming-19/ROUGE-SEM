@@ -55,6 +55,16 @@ pip install pyrouge
 pyrouge_set_rouge_path yourPath/evaluation/ROUGE-RELEASE-1.5.5
 ```
 
+### Datasets
+* SummEval
+More details can be find in this [link](https://github.com/Yale-LILY/SummEval). please request and download the data from the original paper.
+
+* DialSummEval
+More details can be find in this [link](https://github.com/kite99520/DialSummEval). please request and download the data from the original paper.
+
+### Models
+Our released models can be download [here](https://github.com/kite99520/DialSummEval). You can import these models by using HuggingFace's Transformers.
+
 ## Example Use Cases
 
 ### Command-line interface
