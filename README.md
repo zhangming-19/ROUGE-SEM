@@ -13,8 +13,6 @@ This project includes the source code for the paper [**ROUGE-SEM: Better evaluat
 <!--You might also be interested in our code for stock movement prediction. We have deposited the code in the Code Ocean platform. The accepted code capsules can be found through https://codeocean.com/capsule/8892872/tree/v1. The DOI of the code is https://doi.org/10.24433/CO.2855516.v1
 -->
 
-Should you have any query please contact me at [zhangming@hccl.ioa.ac.cn](mailto:zhangming@hccl.ioa.ac.cn).
-
 ## Requirements
 We use Conda python 3.7 and strongly recommend that you create a new environment.
 * Prerequisite: Python 3.7 or higher versions
@@ -117,5 +115,6 @@ abstract = {With the development of pre-trained language models and large-scale 
 ```
 
 ## Get Involved
+Should you have any query please contact me at [zhangming@hccl.ioa.ac.cn](mailto:zhangming@hccl.ioa.ac.cn).
 Please create a GitHub issue if you have any questions, suggestions, requests or bug-reports. 
 Don't hesitate to send us an e-mail or report an issue, if something is broken or if you have further questions.
