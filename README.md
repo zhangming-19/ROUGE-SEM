@@ -47,7 +47,7 @@ pip3 install -r requirements.txt
 ```
 
 ### Set Up for ROUGE 
-* Read more from the [link](https://github.com/bheinzerling/pyrouge).
+* Read more from this [link](https://github.com/bheinzerling/pyrouge).
 ```shell script
 git clone https://github.com/summanlp/evaluation
 export ROUGE_EVAL_HOME="yourPath/evaluation/ROUGE-RELEASE-1.5.5/data/"
@@ -59,7 +59,7 @@ pyrouge_set_rouge_path yourPath/evaluation/ROUGE-RELEASE-1.5.5
 
 ### Command-line interface
 ```python
-python ROUGE-SEM.py -r reference.txt -c candidate.txt
+bash ROUGE-SEM.sh -r reference.txt -c candidate.txt
 ```
 
 ### Evaluate Text Summarization Step by Step
@@ -67,27 +67,27 @@ Given the source documents, reference summaries and some to-be-evaluated summari
 
 * Calculate Lexical Similarity
 ```python
-python Calculate_Lexical_Similarity.py -r reference.txt -c candidate.txt
+python calculate_lexical_similarity.py -r reference.txt -c candidate.txt
 ```
 
 * Calculate Semantic Similarity
 ```python
-python Calculate_Semantic_Similarity.py -r reference.txt -c candidate.txt
+python calculate_semantic_similarity.py -r reference.txt -c candidate.txt
 ```
 
 * Candidate Summary Classifier
 ```python
-python Candidate_Summary_Classifier.py
+python candidate_summary_classifier.py -lex_score lexical_similarity.txt -sem_score semantic_similarity.txt
 ```
 
 * Categorized Summary Rewriter
 ```python
-python Categorized_Summary_Rewriter.py
+python categorized_summary_rewriter.py
 ```
 
 * Rewritten Summary Scorer
 ```python
-python Rewritten_Summary_Scorer.py
+python rewritten_summary_scorer.py
 ```
 
 ## Citation
