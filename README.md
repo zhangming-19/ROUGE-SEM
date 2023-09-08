@@ -63,7 +63,7 @@ More details can be find in this [link](https://github.com/Yale-LILY/SummEval). 
 More details can be find in this [link](https://github.com/kite99520/DialSummEval). please request and download the data from the original paper.
 
 ### Models
-Our released models can be download [here](https://github.com/kite99520/DialSummEval). You can import these models by using HuggingFace's Transformers.
+Our released models can be download [here](https://drive.google.com/drive/folders/1HxkIJFnbBeIEGoEYENZJy6GZdv51I9O8?usp=drive_link). You can import these models by using HuggingFace's Transformers.
 
 ## Example Use Cases
 
@@ -87,17 +87,17 @@ python calculate_semantic_similarity.py -r reference.txt -c candidate.txt
 
 * Candidate Summary Classifier
 ```python
-python candidate_summary_classifier.py -lex_score lexical_similarity.txt -sem_score semantic_similarity.txt
+python candidate_summary_classifier.py -lex_score lexical_similarity.csv -sem_score semantic_similarity.csv
 ```
 
 * Categorized Summary Rewriter
 ```python
-python categorized_summary_rewriter.py -category categorized_summary.txt -c candidate.txt
+python categorized_summary_rewriter.py -category categorized_summary.csv -c candidate.txt
 ```
 
 * Rewritten Summary Scorer
 ```python
-python rewritten_summary_scorer.py -r reference.txt -c new_candidate.txt
+python rewritten_summary_scorer.py -r reference.txt -c new_candidate.csv
 ```
 
 ## Citation
