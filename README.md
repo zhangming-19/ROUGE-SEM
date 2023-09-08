@@ -69,7 +69,7 @@ Our released models can be download [here](https://drive.google.com/drive/folder
 
 ### Command-line interface
 ```python
-bash ROUGE-SEM.sh -r reference.txt -c candidate.txt
+bash run.sh -r reference.txt -c candidate.txt
 ```
 
 ### Evaluate Text Summarization Step by Step
