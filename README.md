@@ -69,7 +69,7 @@ Our released models can be download [here](https://drive.google.com/drive/folder
 
 ### Command-line interface
 ```python
-bash run.sh -r reference.txt -c candidate.txt
+source run.sh
 ```
 
 ### Evaluate Text Summarization Step by Step
